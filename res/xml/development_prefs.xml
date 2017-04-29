@@ -36,7 +36,8 @@
     <cyanogenmod.preference.CMSecureSettingSwitchPreference
             android:key="advanced_reboot"
             android:title="@string/advanced_reboot_title"
-            android:summary="@string/advanced_reboot_summary" />
+            android:summary="@string/advanced_reboot_summary"
+            android:defaultValue="true" />
 
     <PreferenceScreen
             android:key="local_backup_password"
@@ -169,7 +170,8 @@
         <SwitchPreference
             android:key="enable_terminal"
             android:title="@string/enable_terminal_title"
-            android:summary="@string/enable_terminal_summary" />
+            android:summary="@string/enable_terminal_summary"
+            android:defaultValue="true" />
 
         <SwitchPreference
             android:key="bugreport_in_power"
